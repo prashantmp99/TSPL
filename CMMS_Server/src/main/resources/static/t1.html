@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>JavaScript Internal Script</title>
+
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+      <script type = "text/JavaScript">
+      
+      
+      
+
+
+
+function fun12() 
+{
+   $.ajax({
+            url: "http://localhost:8080/Status",
+            data: "", //ur data to be sent to server
+            contentType: "application/json; charset=utf-8", 
+            type: "GET",
+headers: {
+	Access-Control-Allow-Origin:"*"
+	},
+            success: function (data) {
+               alert(data);
+            },
+            error: function (x, y, z) {
+               alert(x.responseText +"  " +x.status);
+            }
+        });
+}
+      
+
+
+
+     
+      function fun1() 
+{
+   var data="hello";
+   $.get("http://localhost:8080/Status", function(response) {
+        data = response;
+  alert(data);
+
+   }).error(function(){
+  alert("Sorry could not proceed");
+});
+
+   return data;
+}
+      
+         function Hello() {
+            alert("Hello, World");
+         }
+         
+ 
+         
+         
+      </script>
+   </head>
+
+   <body>
+      <input type = "button" onclick = "fun12();" name = "ok" value = "Click Me" />
+   
+   <p id="demo"></p>
+
+   </body>
+
+</html>
