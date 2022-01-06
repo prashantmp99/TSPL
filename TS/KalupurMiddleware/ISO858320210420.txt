@@ -1,0 +1,7 @@
+
+2021-04-20 16:59:12	Entered into TransactionRequestMsg method
+2021-04-20 16:59:12	Bitmap config does not exist
+2021-04-20 16:59:12	arrMTI : 
+2021-04-20 18:27:43	Entered into TransactionRequestMsg method
+2021-04-20 18:27:43	Bitmap config does not exist
+2021-04-20 18:27:43	arrMTI : 

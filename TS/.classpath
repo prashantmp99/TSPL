@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="AxisOTPJar/src"/>
+	<classpathentry kind="src" path="AxisTSM/src"/>
+	<classpathentry kind="src" path="CMMS_PULL/src"/>
+	<classpathentry kind="src" path="KalupurMiddleware/src"/>
+	<classpathentry kind="src" path="PLQ22TSLinux/src"/>
+	<classpathentry kind="src" path="SmartPlugTS/src"/>
+	<classpathentry kind="lib" path="AxisOTPJar/dist/AxisOTPJar.jar"/>
+	<classpathentry kind="lib" path="AxisOTPJar/dist/lib/ksoap2-android-assembly-2.6.0-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="AxisTSM/dist/AxisTSM.jar"/>
+	<classpathentry kind="lib" path="KalupurMiddleware/dist/KalupurMiddleware.jar"/>
+	<classpathentry kind="lib" path="PLQ22TSLinux/dist/PLQ22TSLinux.jar"/>
+	<classpathentry kind="lib" path="SmartPlugTS/dist/SmartPlugTS.jar"/>
+	<classpathentry kind="output" path="AxisOTPJar/build/classes"/>
+</classpath>
