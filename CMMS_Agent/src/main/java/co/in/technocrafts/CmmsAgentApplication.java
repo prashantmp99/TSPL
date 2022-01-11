@@ -78,6 +78,8 @@ public class CmmsAgentApplication implements CommandLineRunner{
 //		
   //      System.setProperty("currentDateFormat",currentDateFormat);
         
+		
+		//test commit
         String KIOSK_HOME= System.getenv("KIOSK_HOME");
         System.setProperty("KIOSK_HOME",KIOSK_HOME);
 
